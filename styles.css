@@ -44,9 +44,12 @@ main {
 }
 home-banner {
     width: 100%;
-    height: 400px; /* Altezza fissa per un effetto banner */
-    object-fit: cover; /* Mantiene il ritaglio senza distorsioni */
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
 }
+
 
 
 /* Footer semplice */
