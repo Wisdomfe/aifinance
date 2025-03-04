@@ -43,12 +43,13 @@ main {
     margin: auto;
 }
 home-banner {
-    width: 100%;
-    max-height: 400px;
+    width: 100vw;  /* Larghezza completa della viewport */
+    height: auto;  /* Mantiene l'aspetto originale */
     object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    display: block; /* Evita spazi vuoti */
+    margin: 0 auto; /* Centra l'immagine */
 }
+
 
 /* Footer semplice */
 footer {
