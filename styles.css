@@ -43,11 +43,9 @@ main {
     margin: auto;
 }
 home-banner {
-    width: 100vw;  /* Larghezza completa della viewport */
-    height: auto;  /* Mantiene l'aspetto originale */
-    object-fit: cover;
-    display: block; /* Evita spazi vuoti */
-    margin: 0 auto; /* Centra l'immagine */
+    width: 100%;
+    height: 400px; /* Altezza fissa per un effetto banner */
+    object-fit: cover; /* Mantiene il ritaglio senza distorsioni */
 }
 
 
