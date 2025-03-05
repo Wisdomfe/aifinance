@@ -38,10 +38,15 @@ nav ul li a {
 /* Hero Image */
 .home-banner {
     width: 100%;
-    height: 400px;
+    height: 250px;
     object-fit: cover;
 }
-
+/* Adatta l'immagine per smartphone */
+@media (max-width: 768px) {
+    .home-banner {
+        height: 180px;  /* Altezza più piccola su mobile */
+    }
+}
 /* Sezione Hero */
 .hero {
     margin: 40px auto;
