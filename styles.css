@@ -269,6 +269,66 @@ ul li a {
 ul li a:hover {
     text-decoration: underline;
 }
+/* Stile generale per la navigazione */
+nav {
+    background-color: #007BFF;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* MENU MOBILE */
+.menu-toggle {
+    display: none; /* Nascosto su desktop */
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Layout Responsive per Mobile */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Mostra il pulsante hamburger su mobile */
+    }
+
+    .nav-links {
+        display: none; /* Nasconde il menu principale */
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: #007BFF;
+        text-align: center;
+    }
+
+    .nav-links li {
+        padding: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex; /* Mostra il menu quando si preme l'icona */
+    }
+}
 
 
 
