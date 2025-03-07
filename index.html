@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Servizi</a></li>
-            <li><a href="about.html">Chi Sono</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contatti</a></li>
-        </ul>
+   <!-- Menu di Navigazione -->
+<nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- Icona Hamburger -->
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Servizi</a></li>
+        <li><a href="about-contact.html">Chi Sono</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contatti</a></li>
+    </ul>
+</nav>
+
     </nav>
 
     <main>
@@ -61,5 +65,12 @@
     <footer>
         <p>&copy; 2024 AI Finance - Tutti i diritti riservati.</p>
     </footer>
+    <script>
+function toggleMenu() {
+    var nav = document.querySelector(".nav-links");
+    nav.classList.toggle("active");
+}
+</script>
+
 </body>
 </html>
