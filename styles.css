@@ -329,6 +329,30 @@ nav {
         display: flex; /* Mostra il menu quando si preme l'icona */
     }
 }
+/* Menu Mobile - Background e Testo */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        background-color: #007BFF; /* Colore blu per il menu a tendina */
+    }
+
+    .nav-links li {
+        padding: 15px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Linea di separazione */
+    }
+
+    .nav-links a {
+        color: white; /* Testo bianco per contrastare lo sfondo blu */
+        font-size: 1.3em;
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .nav-links a:hover {
+        background-color: rgba(255, 255, 255, 0.2); /* Leggero effetto hover */
+    }
+}
+
 /* Migliorare i titoli delle sezioni */
 section h1, section h2 {
     font-size: 2em;
