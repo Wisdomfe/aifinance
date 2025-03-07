@@ -329,6 +329,13 @@ nav {
         display: flex; /* Mostra il menu quando si preme l'icona */
     }
 }
+/* Migliorare i titoli delle sezioni */
+section h1, section h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007BFF; /* Blu accattivante */
+}
 
 
 
