@@ -337,5 +337,15 @@ section h1, section h2 {
     color: #007BFF; /* Blu accattivante */
 }
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var menuToggle = document.querySelector(".menu-toggle");
+    var nav = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", function() {
+        nav.classList.toggle("active");
+    });
+});
+</script>
 
 
