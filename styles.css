@@ -256,3 +256,21 @@ ul li a:hover {
         padding: 5px 0; /* Diminuisce lo spazio tra i tasti */
     }
 }
+/* Menu scorrevole su mobile */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: none; /* Nasconde la barra di scorrimento */
+    }
+
+    nav ul::-webkit-scrollbar {
+        display: none; /* Nasconde la barra su Safari/Chrome */
+    }
+
+    nav ul li {
+        flex: 0 0 auto;
+        padding: 10px;
+    }
+}
