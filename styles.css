@@ -306,4 +306,38 @@ ul li a:hover {
         transform: scale(1.05); /* Leggero effetto hover per estetica */
     }
 }
+/* Stili generali per la sezione servizi */
+.services-preview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Spazio tra i servizi */
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Stile per ogni servizio */
+.service {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%; /* Ogni servizio occupa il 30% dello schermo su desktop */
+    min-width: 250px; /* Dimensione minima per evitare che diventino troppo piccoli */
+}
+
+/* Stili per dispositivi mobili */
+@media screen and (max-width: 768px) {
+    .services-preview {
+        flex-direction: column; /* Imposta i servizi in colonna */
+        align-items: center;
+    }
+
+    .service {
+        width: 90%; /* Occupa quasi tutta la larghezza dello schermo su mobile */
+        min-width: unset; /* Rimuove la dimensione minima per adattarsi meglio */
+    }
+}
 
