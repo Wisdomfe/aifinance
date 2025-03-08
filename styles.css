@@ -249,3 +249,44 @@ ul li a {
 ul li a:hover {
     text-decoration: underline;
 }
+/* Stile generale per il menu di navigazione */
+nav {
+    background-color: #007BFF;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permette agli elementi di andare a capo su schermi piccoli */
+}
+
+nav ul li {
+    margin: 0 15px;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Stile per schermi più piccoli */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Dispone i tasti in colonna */
+        align-items: center;
+    }
+
+    nav ul li {
+        width: 100%; /* Ogni elemento occupa tutta la larghezza disponibile */
+        text-align: center;
+        padding: 10px 0;
+    }
+}
