@@ -1,4 +1,8 @@
-theme: jekyll-theme-cayman
-title: AI & Finance
-description: "Soluzioni di Intelligenza Artificiale per Trading, Finanza e Blockchain."
+title: AI Finance Blog
+description: "Blog su trading, AI e blockchain"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 
