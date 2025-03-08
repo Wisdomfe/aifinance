@@ -249,3 +249,10 @@ ul li a {
 ul li a:hover {
     text-decoration: underline;
 }
+/* Riduzione della dimensione del testo nel menu su mobile */
+@media screen and (max-width: 768px) {
+    nav ul li a {
+        font-size: 1em; /* Riduce il testo */
+        padding: 5px 0; /* Diminuisce lo spazio tra i tasti */
+    }
+}
