@@ -339,5 +339,8 @@ ul li a:hover {
         width: 90%; /* Occupa quasi tutta la larghezza dello schermo su mobile */
         min-width: unset; /* Rimuove la dimensione minima per adattarsi meglio */
     }
+    .service h3 {
+        font-size: 1.2em; /* Riduce ulteriormente i titoli per evitare ingombro */
+    }
 }
 
