@@ -249,4 +249,27 @@ ul li a {
 ul li a:hover {
     text-decoration: underline;
 }
+/* Stili per evitare sovrapposizioni su mobile */
+@media screen and (max-width: 768px) {
+    .services-preview {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 20px; /* Aggiunge spazio tra i servizi */
+    }
+
+    .service h3 {
+        font-size: 1.2em; /* Riduce leggermente il titolo su schermi piccoli */
+    }
+
+    .service p {
+        font-size: 1em;
+        padding: 0 10px;
+    }
+}
 
