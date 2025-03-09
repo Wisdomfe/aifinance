@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Benvenuti nel Blog di AI Finance"
+date: 2024-03-04
+author: "Rosario Sapienza"
+categories: trading AI blockchain
+---
+
+
+
 # 📌 Opzioni Finanziarie: Tipologie, Strategie e Applicazioni su Commodities e Crypto
 
 ## 📖 Introduzione
