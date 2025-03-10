@@ -75,7 +75,7 @@ Strategia: Combinazione di due spread verticali (uno rialzista e uno ribassista)
 Obiettivo: Guadagnare quando il prezzo dell’asset rimane entro un certo intervallo.
 
 Rischio: Se il prezzo si muove troppo, si possono subire perdite.
-
+![Payoff Covered Call](iron_condor.png)
 📌 Esempio su Crypto:
 Un trader ritiene che Ethereum rimarrà tra $2.500 e $3.500 nei prossimi 3 mesi. Vende una call con strike a $3.500 e una put con strike a $2.500, mentre acquista opzioni di protezione leggermente oltre questi livelli.
 
