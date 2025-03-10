@@ -24,7 +24,7 @@ Sono ampiamente utilizzate per copertura (hedging), speculazione e arbitraggio n
 
 
 - **Put Option (Opzione di Vendita):** Dà il diritto di vendere l'asset sottostante a un prezzo stabilito.
-![Payoff Put](/images/payoff_put.png)
+![Payoff Put](aifinance/images/payoff_put.png)
 
 
 📌 Esempio su Criptovalute:
