@@ -23,7 +23,7 @@ Sono ampiamente utilizzate per copertura (hedging), speculazione e arbitraggio n
   ![Payoff Call](/images/payoff_call.png)
  
 - **Put Option (Opzione di Vendita):** Dà il diritto di vendere l'asset sottostante a un prezzo stabilito.
-![Payoff Put](payoff_put.png)
+![Payoff Put](/images/payoff_put.png)
 
 
 📌 Esempio su Criptovalute:
@@ -43,7 +43,7 @@ Strategia: Vendita di una call option su un asset che già si possiede.
 Obiettivo: Generare reddito extra con il premio dell’opzione se il prezzo rimane stabile.
 
 Rischio: Il guadagno è limitato se il prezzo dell'asset sale troppo.
-![Payoff Covered Call](covered_call.png)
+![Payoff Covered Call](/images/covered_call.png)
 📌 Esempio su Commodities:
 Un'azienda possiede 100 tonnellate di grano e vende una call option con strike price superiore al valore attuale. Se il prezzo non supera lo strike, l'azienda trattiene il premio dell'opzione.
 
@@ -54,7 +54,7 @@ Strategia: Acquisto di una put option su un asset già posseduto.
 Obiettivo: Protezione contro un ribasso del mercato.
 
 Rischio: Si perde solo il premio pagato per l’opzione.
-![Payoff Protective Put](protective_put.png)
+![Payoff Protective Put](/images/protective_put.png)
 📌 Esempio su Crypto:
 Un investitore possiede 5 ETH e compra una put option con strike a $3.000. Se ETH scende sotto $3.000, può esercitare l'opzione e vendere a prezzo più alto.
 
@@ -64,7 +64,7 @@ Strategia: Acquisto contemporaneo di una call e una put con lo stesso strike pri
 Obiettivo: Guadagnare da movimenti di mercato molto forti, indipendentemente dalla direzione.
 
 Rischio: Se il prezzo non si muove abbastanza, si perde il premio pagato per entrambe le opzioni.
-![Payoff Straddle](straddle.png)
+![Payoff Straddle](/images/straddle.png)
 
 
 
@@ -76,7 +76,7 @@ Strategia: Combinazione di due spread verticali (uno rialzista e uno ribassista)
 Obiettivo: Guadagnare quando il prezzo dell’asset rimane entro un certo intervallo.
 
 Rischio: Se il prezzo si muove troppo, si possono subire perdite.
-![Payoff Covered Call](iron_condor.png)
+
 📌 Esempio su Crypto:
 Un trader ritiene che Ethereum rimarrà tra $2.500 e $3.500 nei prossimi 3 mesi. Vende una call con strike a $3.500 e una put con strike a $2.500, mentre acquista opzioni di protezione leggermente oltre questi livelli.
 
