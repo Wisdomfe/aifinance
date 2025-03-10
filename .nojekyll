@@ -1,4 +1,0 @@
-touch .nojekyll
-git add .nojekyll
-git commit -m "Disabilitato Jekyll per servire file statici"
-git push
