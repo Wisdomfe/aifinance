@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Benvenuti nel Blog di AI Finance"
-date: 2024-03-04
+title: "Un introduzione alle opzioni"
+date: 2024-03-10
 author: "Rosario Sapienza"
 categories: trading AI blockchain
 ---
