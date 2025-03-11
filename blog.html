@@ -1,14 +1,29 @@
----
-layout: default
-title: Blog
----
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog AI Finance</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog AI Finance</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </header>
 
-<h1>Blog</h1>
+    <main>
+        <h2>Ultimi Articoli</h2>
+        <ul>
+            <li><a href="posts/2024-03-10-opzioni.html">Opzioni Finanziarie</a></li>
+            <li><a href="posts/2024-03-05-trading-algoritmico.html">Trading Algoritmico</a></li>
+        </ul>
+    </main>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {{ post.date | date: "%d %B %Y" }}
-    </li>
-  {% endfor %}
-</ul>
+    <footer>
+        <p>&copy; 2024 AI Finance - Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
