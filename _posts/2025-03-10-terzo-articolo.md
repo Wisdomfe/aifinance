@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Un introduzione alle opzioni"
-date: 2024-03-10
+date: 2025-03-10
 author: "Rosario Sapienza"
 categories: trading AI blockchain
 ---
@@ -19,6 +19,7 @@ Sono ampiamente utilizzate per copertura (hedging), speculazione e arbitraggio n
 ## 🔹 Tipologie di Opzioni
 - **Call Option (Opzione di Acquisto):** Dà il diritto di acquistare l'asset sottostante a un prezzo stabilito (strike price).
   ![Payoff Call](/images/payoff_call.png)
+  ({{ site.baseurl }}/images/payoff_call.png)
 
 
 - **Put Option (Opzione di Vendita):** Dà il diritto di vendere l'asset sottostante a un prezzo stabilito.
