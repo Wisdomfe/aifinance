@@ -20,8 +20,7 @@ Sono ampiamente utilizzate per copertura (hedging), speculazione e arbitraggio n
 - **Call Option (Opzione di Acquisto):** Dà il diritto di acquistare l'asset sottostante a un prezzo stabilito (strike price).
   ![Payoff Call](/images/payoff_call.png)
 
- 
-
+ ![Payoff Call](github.com/Wisdomfe/aifinance/blob/16107e67f81fc5fbc6fd92a0bc5331f1889d35fc/_posts/payoff_call.png
 
 - **Put Option (Opzione di Vendita):** Dà il diritto di vendere l'asset sottostante a un prezzo stabilito.
 ![Payoff Put](/_posts/payoff_call.png)
