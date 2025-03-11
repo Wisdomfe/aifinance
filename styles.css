@@ -313,6 +313,14 @@ footer {
 }
 .home-banner {
     width: 100%;
-    display: block;
+    max-height: 400px; /* Evita che sia troppo alta su desktop */
+    object-fit: cover; /* Adatta l'immagine mantenendo le proporzioni */
+}
+
+/* Su smartphone, imposta un'altezza inferiore per evitare di coprire troppo schermo */
+@media (max-width: 768px) {
+    .home-banner {
+        max-height: 250px;
+    }
 }
 
