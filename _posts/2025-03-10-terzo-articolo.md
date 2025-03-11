@@ -20,8 +20,8 @@ Sono ampiamente utilizzate per copertura (hedging), speculazione e arbitraggio n
 - **Call Option (Opzione di Acquisto):** Dà il diritto di acquistare l'asset sottostante a un prezzo stabilito (strike price).
  ![Payoff Call](/images/payoff_call.png)
 
-   ![Payoff Call](https://github.com/Wisdomfe/aifinance/issues/1)
-
+   ![Payoff Call](https://private-user-images.githubusercontent.com/79000935/421321324-ea1716cd-427a-4382-8980-280623b6131a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE2OTAzNTMsIm5iZiI6MTc0MTY5MDA1MywicGF0aCI6Ii83OTAwMDkzNS80MjEzMjEzMjQtZWExNzE2Y2QtNDI3YS00MzgyLTg5ODAtMjgwNjIzYjYxMzFhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzExVDEwNDczM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQxZmM1N2I3NDk2MmY2ZmM0ZWUyNDM4YzliZTcxZTY4NTgzM2I5NzliZGIwYmRjOTliZjlhZjE3YjdhNzIwOTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.S-HHn-HqNp6rVbJycQlV9UeqcuxFKrDiF1q44DhImvE)
+ 
 - **Put Option (Opzione di Vendita):** Dà il diritto di vendere l'asset sottostante a un prezzo stabilito.
 ![Payoff Put](/_posts/payoff_call.png)
 
