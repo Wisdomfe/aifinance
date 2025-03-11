@@ -311,3 +311,8 @@ footer {
     color: white;
     margin-top: 20px;
 }
+.home-banner {
+    width: 100%;
+    display: block;
+}
+
