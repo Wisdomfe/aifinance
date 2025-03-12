@@ -342,7 +342,7 @@ header {
 }
 
 header h1, header nav a {
-    color: white !important; /* Forza il colore bianco */
+     color: black !important; /* Forza il colore bianco */
 }
 nav {
     background: #f8f9fa !important; /* Sfondo leggermente più scuro */
