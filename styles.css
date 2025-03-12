@@ -345,11 +345,12 @@ header h1, header nav a {
     color: white !important; /* Forza il colore bianco */
 }
 nav {
-    background: #f8f9fa; /* Sfondo leggermente più scuro */
+    background: #f8f9fa !important; /* Sfondo più scuro */
 }
 
 nav a {
-    color: #222 !important; /* Testo più scuro */
-    font-weight: bold;
+    color: #000 !important; /* Testo completamente nero */
+    font-weight: bold !important;
+    text-decoration: none !important; /* Rimuove eventuali formattazioni indesiderate */
 }
 
