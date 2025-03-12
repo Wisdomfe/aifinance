@@ -336,4 +336,12 @@ footer {
         max-height: 250px;
     }
 }
+header {
+    background: #007BFF; /* Mantiene il blu */
+    color: white; /* Rende il testo bianco */
+}
+
+header h1, header nav a {
+    color: white !important; /* Forza il colore bianco */
+}
 
